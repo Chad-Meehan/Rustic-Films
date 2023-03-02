@@ -307,7 +307,7 @@
 
 .about-pic2 {
     flex-grow: 1;
-    background-image: url(Rustic-Films/images/George with camera.jpg); 
+    background-image: url(/images/George_with_camera.jpg); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: top;
