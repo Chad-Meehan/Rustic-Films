@@ -317,7 +317,7 @@
 
 .about-pic3 {
     flex-grow: 1;
-    background-image: url(/images/GMeehan03.jpg); 
+    background-image: url(images/GMeehan03.jpg); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: top;
