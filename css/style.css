@@ -40,7 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    background-image: url("../images/Camera.png"); 
+    background-image: url(../images/Camera.png); 
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -144,7 +144,7 @@
 
 .front-pic {
     display: flex;
-    background-image: url(/images/Godfather\ Lighting.jpg); 
+    background-image: url(../images/Godfather\ Lighting.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
@@ -297,7 +297,7 @@
 
 .about-pic {
     flex-grow: 1;
-    background-image: url(/images/GMeehan04.jpg); 
+    background-image: url(../images/GMeehan04.jpg); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: top;
@@ -317,7 +317,7 @@
 
 .about-pic3 {
     flex-grow: 1;
-    background-image: url(images/GMeehan03.jpg); 
+    background-image: url(../images/GMeehan03.jpg); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: top;
@@ -389,7 +389,7 @@ hr {
 }
 
 .thanks-div {
-    background-image: url(/images/lights.jpg); 
+    background-image: url(../images/lights.jpg); 
     background-size: cover; 
     justify-content: center;
     padding-top: 8rem;
