@@ -1,0 +1,523 @@
+.header-nav {
+    padding-top: 10%;
+}
+
+.logo-div {
+    width: 45%;
+}
+
+.logo a img {
+    width:100%; 
+    height:100%;
+}
+
+.nav-wide {
+    padding-left: 25%;
+}
+
+#mySidebar {
+    width: 40%;
+    background-color: #e10202; 
+    padding-top: 100px; 
+    font-size: 1.3rem;
+}
+
+.extra-logo a img {
+    width: 320px;
+    display: none;
+}
+
+.formdiv1 {
+    padding-top: 4rem;
+}
+
+#myForm {
+    width: 90%;
+}
+
+.form-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url(/images/Camera.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.contact-half2 {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width:1350px) {
+    .nav-wide{
+        padding-left: 15%;
+    }
+    #myForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nav-wide{
+        padding-left: 0%;
+    }
+    .contact-half2 {
+        justify-content: center;
+    }
+    .film-parent {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav-wide{
+        display: none;
+    }
+    .header-nav{
+        padding-top: 10%;
+    }
+    .logo-div {
+        width: 60%;
+    }
+    .contact-half1 {
+        display: none;
+    }
+    .contact-half2 {
+        width: 80%;
+    }
+    .formdiv1 {
+        padding-top: 4rem;
+    }
+    .film-child1 {
+        flex-shrink: 1;
+    }
+    .film-child2 {
+        flex-shrink: 1;
+    }
+    .thanks-div h1 {
+        padding-top: 6rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .nav-wide{
+        display: none;
+    }
+    .header-nav{
+        padding-top: 0%;
+        text-align: start;
+        padding-left: 80%;
+    }
+    .logo-div {
+        width: 80%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .extra-logo a img {
+        display: block;
+    }
+
+    #mySidebar {
+        right: 0;
+        width: 60%;
+    }
+    .formdiv1 {
+        padding-top: 1rem;
+    }
+}
+
+.front-headline {
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.front-headline h1 {
+    font-size: 4rem;
+}
+
+.front-pic {
+    display: flex;
+    background-image: url(/images/Godfather\ Lighting.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: auto; 
+    height: 1000px;
+}
+
+.yt1 {
+    order: 1;
+}
+.yt2 {
+    order: 1;
+}
+.yt3 {
+    order: 1;
+}
+
+.fpage-vids {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.vid1 {
+    flex-grow: 1;
+    padding: 10px;
+    min-width: 560px;
+    max-width: 560px;
+}
+
+.vid1 iframe {
+    width: 550px;
+    height: 310px;
+}
+
+.vid2 {
+    flex-grow: 1;
+    padding: 10px;
+    min-width: 560px;
+    max-width: 560px;
+}
+
+.vid2 iframe {
+    width: 550px;
+    height: 310px;
+}
+
+.vid3 {
+    flex-grow: 1;
+    padding: 10px;
+    min-width: 560px;
+    max-width: 560px;
+}
+
+.vid3 iframe {
+    width: 550px;
+    height: 310px;
+}
+
+@media screen and (max-width:1400px) {
+    .front-pic {
+        height: 800px;
+    }
+    .front-headline {
+        padding-top: 6rem;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .front-pic {
+        height: 600px;
+    }
+    .front-headline {
+        padding-top: 4rem;
+    }
+}
+@media screen and (max-width:1000px) {
+    .front-pic {
+        height: 480px;
+    }
+    .front-headline h1 {
+        font-size: 3rem;
+    }
+    .front-headline {
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .front-pic {
+        height: 400px;
+    }
+}
+@media screen and (max-width:600px) {
+    .front-pic {
+        height: 280px;
+    }
+    .front-headline h1 {
+        font-size: 2rem;
+    }
+    .vid1 {
+        min-width: 300px;
+    }
+    .vid2 {
+        min-width: 300px;
+    }
+    .vid3 {
+        min-width: 300px;
+    }
+    .vid1 iframe {
+        width: 300px;
+        height: 169px;
+    }
+    .vid2 iframe {
+        width: 300px;
+        height: 169px;
+    }
+    .vid3 iframe {
+        width: 300px;
+        height: 169px;
+    }
+}
+@media screen and (max-width:400px) {
+    .front-pic {
+        height: 180px;
+    }
+}
+
+.about-title {
+    padding-top: 4rem;
+    text-decoration: underline 1PX #e10202; 
+    text-underline-offset: 8px; 
+    font-size: 3rem;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+    align-items: flex-start;
+}
+
+.about-blurb {
+    width: 80%;
+    font-size: 1.5rem;
+    flex-grow: 1;
+}
+
+.about-pic {
+    flex-grow: 1;
+    background-image: url(/images/GMeehan04.jpg); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: top;
+    width: 100%; 
+    height: 630px;
+}
+
+.about-pic2 {
+    flex-grow: 1;
+    background-image: url(/images/George\ with\ camera.jpg); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: top;
+    width: 100%; 
+    height: 630px;
+}
+
+.about-pic3 {
+    flex-grow: 1;
+    background-image: url(/images/GMeehan03.jpg); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: top;
+    width: 100%; 
+    height: 630px;
+}
+
+@media screen and (max-width:1300px) {
+    .about-div {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .about-pic {
+        order: 1;
+    }
+    .about-blurb {
+        order: 2;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .about-pic {
+        height: 400px;
+    }
+    .about-div {
+        padding-top: 2rem;
+    }
+    .about-title {
+        padding-top: 0;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-pic {
+        height: 250px;
+    }
+    .about-blurb {
+        font-size: 1rem;
+    }
+}
+
+hr {
+    height: 1px;
+    background-color: #e10202;
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.film-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.film-child1 {
+    width: 400px;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.film-child2 {
+    width: 400px;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.thanks-div {
+    background-image: url(/images/lights.jpg); 
+    background-size: cover; 
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.film-button {
+    padding-bottom: 6rem;
+}
+
+.film-button a {
+    font-size: 1.5rem;
+    background-color: #e10202;
+    color: floralwhite;
+}
+
+/* Element animation */
+    
+ .hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: translateY(100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.vid1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.vid1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+
+.vid2.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.vid2.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+
+.vid3.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.vid3.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+.about-pic.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.about-pic.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+.about-pic2.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.about-pic2.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+.about-pic3.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.about-pic3.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+
+.film-child1.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.film-child1.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+
+.film-child2.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transform: scale(0, 0);
+}
+
+.film-child2.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1, 1);
+}
+

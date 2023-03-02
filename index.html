@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/5b29e7e330.js" crossorigin="anonymous"></script>
+  <script defer src="Javascript/app.js"></script>
+
+  <title>Rustic Films</title>
+</head>
+
+<body>
+
+<div class="w3-container;"></div>
+  <div class="w3-container;" style="background-color: #0e0e0e; color: floralwhite;">
+    <div class="w3-margin-left w3-margin-right">
+      <header>
+        <nav>
+
+          <!--Logo to replace regular div to make room for the sidebar-->
+        <div>
+          <div class="extra-logo">
+              
+            <a href="index.html">
+            <img src="/images/RF_LOGO_2022_TRANS_V1.png"  />
+          </a>
+
+        </div>
+        </div>
+        
+
+        <div class="w3-container w3-row">
+          
+            <div class="logo-div w3-col">
+            <div class="logo w3-container w3-cell">
+              
+                <a href="index.html">
+                <img src="/images/RF_LOGO_2022_TRANS_V1.png"  />
+              </a>
+
+            </div>
+          </div>
+          
+          
+            <div class="w3-rest">
+            <div class="header-nav">
+                <div class="w3-row w3-large">
+                <a class="w3-button w3-hide-large w3-round w3-hover-red w3-large w3-theme-l1" href="javascript:void(0)" onclick="openSidebar()">
+                  <i class="fa fa-bars"></i></a>
+                  <div class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+                    <div class="w3-container w3-theme-d2">
+                      <span onclick="closeSidebar()" class="w3-button w3-hover-black w3-display-topright w3-large">X</span>
+                      <br>
+                    </div>
+                    <a class="w3-button w3-round w3-hover-black" href="index.html">Home</a><br>
+                    <a class="w3-button w3-round w3-hover-black" href="about.html">About</a><br>
+                    <a class="w3-button w3-round w3-hover-black" href="filmography.html">Filmography</a><br>
+                    <a class="w3-button w3-round w3-hover-black" href="contact.html">Contact</a>
+                  </div>
+                  <div class="nav-wide">
+                <a href="index.html" class="w3-bar-item w3-button w3-round w3-red w3-theme-l1">Home</a>
+                <a href="about.html" class="w3-bar-item w3-button w3-round w3-margin-left w3-hide-small w3-hover-red">About</a>
+                <a href="filmography.html" class="w3-bar-item w3-button w3-round w3-margin-left w3-hide-small w3-hover-red">Filmography</a>
+                <a href="contact.html" class="w3-bar-item w3-button w3-round w3-margin-left w3-hide-small w3-hover-red">Contact</a>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+        </nav>
+
+        <script>
+          closeSidebar();
+          function openSidebar() {
+            document.getElementById("mySidebar").style.display = "block";
+          }
+          
+          function closeSidebar() {
+            document.getElementById("mySidebar").style.display = "none";
+          }
+          </script>
+
+      </header>
+
+      <div class="front-headline hidden w3-container w3-center w3-mobile">
+        <h1 style="text-decoration: underline 1PX #e10202; text-underline-offset: 8px;">THIS IS RUSTIC&nbsp;FILMS</h1>
+        </div>
+        
+        <div style="display: flex; flex-direction: column; justify-content: flex-start;">
+        <div class="front-pic"></div>
+         
+          <div class="w3-container w3-center" style="display: flex; flex-direction: column; font-size: 1.5rem; padding-bottom: 6rem; padding-left: 2rem; padding-right: 2rem;">
+            <p>Rustic Films is a production studio run by George Meehan in Christchurch, New Zealand.</p>
+            <p>George is a young film maker and student with a passion for all things film, and has been 
+              producing short films and commercial work for over 10 years.
+            </p>
+            <h2>Rustic Films aim is to move you and engross you in the stories of life</h2>
+            </div>
+
+        </div>
+        
+        
+
+      <hr>
+      <div class="front-headline w3-container w3-center hidden">
+        <h1 style="text-decoration: underline 1PX #e10202; text-underline-offset: 8px; padding-bottom: 3rem;">SOME OF MY WORK</h1>
+      </div>
+
+      <div class="fpage-vids w3-center">
+        <div class="vid1 hidden">
+          <iframe src="https://www.youtube.com/embed/jy0j0oOILKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="vid2 hidden">
+          <iframe src="https://www.youtube.com/embed/WsvebNa87Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="vid3 hidden">
+          <iframe src="https://www.youtube.com/embed/ucTsW7rcQy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <div class="w3-row w3-center" style="padding-top: 8rem; padding-bottom: 8rem;">
+      <div class="w3-quarter w3-container"></div>
+      <div class="w3-half w3-container"><h3>Please browse the pages on this site to learn about Rustic Films, 
+        the films that have been made so far, and if you have any projects or films, commercial or otherwise, 
+        don't hesitate to contact us</h3>
+        <br>
+        <span style="font-size: 4rem; color: #e10202;">&#128609;&#128611;</span>
+      </div>
+      <div class="w3-quarter w3-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  <div class="w3-cell-row" style="width:100%; border-top: 2px solid #e10202;">
+    <div class="w3-container w3-center w3-cell w3-mobile" style="background-color: #2b2424; color: floralwhite;">
+      <br>
+      <h2>Rustic Films</h2>
+      <h4>George Meehan</h4>
+      <h4>Christchurch</h4>
+      <h4>New Zealand</h4>
+    </div>
+    <div class="w3-container w3-center w3-cell w3-mobile" style="background-color: #2b2424; color: floralwhite;">
+      <br>
+      <h2>Contacts</h2>
+      <a href="https://www.instagram.com/George.Meehan/" target="_blank" style="text-decoration: none; font-size: 1.2rem;"><h4><i class="fa-brands fa-instagram"></i> Instagram</h4></a>
+      <a href="https://www.facebook.com/george.meehan.10" target="_blank" style="text-decoration: none; font-size: 1.2rem;"><h4><i class="fa-brands fa-facebook"></i> Facebook</h4></a>
+      <a href="https://www.youtube.com/@RusticFilms" target="_blank" style="text-decoration: none; font-size: 1.2rem;"><h4><i class="fa-brands fa-youtube"></i> Youtube</h4></a>
+    </div>
+    <div class="w3-container w3-center w3-cell w3-mobile" style="background-color: #2b2424; color: floralwhite;">
+      <br><br>
+      <a href="index.html" style="text-decoration: none; font-size: 1.2rem;"><h4>Home</h4></a>
+      <a href="about.html" style="text-decoration: none; font-size: 1.2rem;"><h4>About</h4></a>
+      <a href="filmography.html" style="text-decoration: none; font-size: 1.2rem;"><h4>Filmography</h4></a>
+      <a href="contact.html" style="text-decoration: none; font-size: 1.2rem;"><h4>Contact</h4></a>
+      <p class="w3-right-align w3-margin-right" style="background-color: #2b2424; color: floralwhite;">&copy2022 Rustic Films</p>
+    </div>
+  </div>
+  </footer>
+  </body>
+  </html>
