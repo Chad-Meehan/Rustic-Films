@@ -352,6 +352,15 @@ body {
     padding-bottom: 8rem;
 }
 
+.film-text {
+    display: flex; 
+    flex-direction: column; 
+    font-size: 1.5rem; 
+    padding-bottom: 6rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem;"
+}
+
 @media screen and (max-width:1300px) {
     .about-div {
         flex-direction: column;
@@ -395,6 +404,13 @@ body {
     }
     .front-info h2 {
         font-size: 1rem;
+    }
+    .film-text {
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+    .film-text h2 {
+        font-size: 1.2rem;
     }
 }
 
@@ -442,6 +458,12 @@ hr {
     font-size: 1.5rem;
     background-color: #e10202;
     color: floralwhite;
+}
+
+@media screen and (max-width:400px) {
+    .film-button a {
+        font-size: 1rem;
+    }
 }
 
 /* Element animation */
