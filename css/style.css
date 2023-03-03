@@ -338,6 +338,20 @@ body {
     height: 630px;
 }
 
+.front-info {
+    display: flex; 
+    flex-direction: column; 
+    font-size: 1.5rem; 
+    padding-bottom: 6rem; 
+    padding-left: 2rem; 
+    padding-right: 2rem;
+}
+
+.front-bottom {
+    padding-top: 8rem; 
+    padding-bottom: 8rem;
+}
+
 @media screen and (max-width:1300px) {
     .about-div {
         flex-direction: column;
@@ -349,6 +363,10 @@ body {
     .about-blurb {
         order: 2;
         width: 100%;
+    }
+    .front-bottom {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
     }
 }
 
@@ -370,6 +388,12 @@ body {
         height: 250px;
     }
     .about-blurb {
+        font-size: 1rem;
+    }
+    .front-info {
+        font-size: 1rem;
+    }
+    .front-info h2 {
         font-size: 1rem;
     }
 }
