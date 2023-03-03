@@ -1,3 +1,8 @@
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+}
+
 .header-nav {
     padding-top: 10%;
 }
@@ -13,6 +18,7 @@
 
 .nav-wide {
     padding-left: 25%;
+    text-transform: uppercase;
 }
 
 #mySidebar {
@@ -20,6 +26,7 @@
     background-color: #e10202; 
     padding-top: 100px; 
     font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
 .extra-logo a img {
@@ -52,7 +59,7 @@
     padding-top: 5%;
 }
 
-@media screen and (max-width:1350px) {
+@media screen and (max-width:1400px) {
     .nav-wide{
         padding-left: 15%;
     }
@@ -70,6 +77,12 @@
     }
     .film-parent {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1017px) {
+    .logo-div {
+        width: 43%;
     }
 }
 
