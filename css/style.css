@@ -400,6 +400,8 @@ hr {
 }
 
 .film-button a {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     font-size: 1.5rem;
     background-color: #e10202;
     color: floralwhite;
