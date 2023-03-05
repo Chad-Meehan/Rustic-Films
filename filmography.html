@@ -56,6 +56,7 @@ const navSlide = () => {
 	//toggle- Nav
 	nav.classList.toggle ("nav-active");
     document.getElementById("film-parent1").style.opacity = "1";
+    document.getElementById("yt-btn").style.opacity = "1";
 	
 	//Animate Links
 	navLinks.forEach((link, index) => {
@@ -64,6 +65,7 @@ const navSlide = () => {
 	} else {
 	link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + .5}s`;
     document.getElementById("film-parent1").style.opacity = "0";
+    document.getElementById("yt-btn").style.opacity = "0";
 	}
 	});
 	//burger animation
@@ -90,7 +92,7 @@ const navSlide = () => {
               <h2>Please click below to view the Rustic Films Youtube channel!</h2>
               </div>
 
-<div class="film-button w3-center"><a class="w3-button w3-round" href="https://www.youtube.com/@RusticFilms" target="_blank">Rustic Films Channel</a></div>
+<div class="film-button w3-center"><a class="w3-button w3-round" id="yt-btn" href="https://www.youtube.com/@RusticFilms" target="_blank">Rustic Films Channel</a></div>
 
 <div class="film-parent" id="film-parent1">
     <div class="film-child1 hidden"><img src="images/THUMBNAILS/Trauma Thumbnail 2.png" alt="An Echo Through Time" style="width: 100%;"></div>

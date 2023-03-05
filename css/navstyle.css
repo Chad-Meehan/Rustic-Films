@@ -79,6 +79,10 @@ header{
         #thanks-div {
             transition: all .4s;  
         }
+
+        #yt-btn {
+            transition: all .4s;  
+        }
                
 	
 	.burger1 {
